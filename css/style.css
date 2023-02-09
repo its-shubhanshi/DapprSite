@@ -247,13 +247,14 @@ header .toggle {
   line-height: 178.7%;
 }
 .chat-overlap {
-  position: absolute;
-  right: 10px;
-  bottom: -30px;
+  position: fixed;
+  right: 5%;
+  bottom: 50px;
   padding: 10px;
   background: #ffffff;
   box-shadow: 4px 15px 35px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
+  z-index: 1;
 }
 .chat-overlap img {
   height: 45px;
